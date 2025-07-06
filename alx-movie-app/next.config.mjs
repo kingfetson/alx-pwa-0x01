@@ -2,8 +2,12 @@ import withPWAInit from "@ducanh2912/next-pwa";
 
 /** @type {import('next').NextConfig} */
 
+// N.B: This is the minimal configuration.
+// You can expand your configuration by reviewing the docs here:
+// https://github.com/DuCanhGH/next-pwa
+
 const withPWA = withPWAInit({
-  dest: 'public'
+  dest: 'public',
 });
 
 const nextConfig = {
@@ -14,5 +18,5 @@ const nextConfig = {
 };
 
 export default withPWA({
-  ...nextConfig
+  ...nextConfig,
 });
