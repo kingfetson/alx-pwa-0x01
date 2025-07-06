@@ -17,6 +17,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@ducanh2912/next-pwa": "^10.2.9",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
@@ -26,7 +27,6 @@
     "eslint-config-next": "15.3.4",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "@ducanh2912/next-pwa": "^10.2.9",
     "webpack": "^5.99.9"
   }
 }
